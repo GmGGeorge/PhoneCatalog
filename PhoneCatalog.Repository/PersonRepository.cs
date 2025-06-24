@@ -3,7 +3,17 @@ using PhoneCatalog.Models;
 
 namespace PhoneCatalog.Repository;
 
-public class Repository: DbContext
+public class Repositories : DbContext
 {
+    public Repositories(DbContextOptions<Repositories> options) : base(options)
+    {
+
+    }
+
     public DbSet<Person> Person { get; set; }
+    
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+    }
 }
