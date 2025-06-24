@@ -5,10 +5,10 @@ using PhoneCatalog.Repository;
 namespace PhoneCatalog.Web.Controllers;
 public class PhoneController: Controller
 {
-    private readonly PersonRepository _personRepository;
-    public PhoneController (PersonRepository personRepository)
+    private readonly Repositories _repository;
+    public PhoneController(Repositories repository)
     {
-        _personRepository = personRepository;
+        _repository = repository;
     }
 
 
