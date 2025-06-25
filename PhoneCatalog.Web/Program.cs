@@ -1,5 +1,5 @@
-using PhoneCatalog.Models;
 using PhoneCatalog.Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace MainProgram;
 
@@ -10,11 +10,7 @@ class Program
         var builder = WebApplication.CreateBuilder(args);
 
         builder.Services.AddControllersWithViews();
-        // Add services to the container.
-
-        builder.Services.AddScoped<Connection>();
-        builder.Services.AddScoped<PersonRepository>();
-
+        builder.Services.AddDbContext<Repositories>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
         var app = builder.Build();
 
         // Configure the HTTP request pipeline. Or else Middleware
@@ -22,7 +18,7 @@ class Program
         app.UseStaticFiles();
         app.MapControllers();
 
-        app.MapGet("/",  context =>
+        app.MapGet("/", context =>
         {
             context.Response.Redirect("/mainpage");
             return Task.CompletedTask;
