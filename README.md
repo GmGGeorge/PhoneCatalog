@@ -1,5 +1,5 @@
-Phone Catalog (misspelled 😛 on purpose).
+# Phone Catalog (misspelled 😛 on purpose).
 
 Collaborators:
- -GmGGeorge
- -AthanasiosKitsanos
+ - GmGGeorge
+- Athanasios Kitsanos
