@@ -1,4 +1,4 @@
-Phone Catalog (misspelled 😛bon purpose).
+Phone Catalog (misspelled 😛 on purpose).
 
 Collaborators:
  -GmGGeorge
