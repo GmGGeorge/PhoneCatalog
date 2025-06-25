@@ -362,7 +362,3 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 PhoneCatalog.Web/appsettings.json
-<<<<<<< HEAD
-=======
-/PhoneCatalog.Web/appsettings - Copy.json
->>>>>>> upstream/master
