@@ -1,3 +1,5 @@
-# PhoneCatalog
+# Phone Catalog (misspelled 😛 on purpose).
 
-h2 element added
+Collaborators:
+ - GmGGeorge
+- Athanasios Kitsanos
