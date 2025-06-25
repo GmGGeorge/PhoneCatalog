@@ -1,3 +1,5 @@
-# PhoneCatalog
+Phone Catalog (misspelled 😛bon purpose).
 
-h2 element added
+Collaborators:
+ -GmGGeorge
+ -AthanasiosKitsanos
