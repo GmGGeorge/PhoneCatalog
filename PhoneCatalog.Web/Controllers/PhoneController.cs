@@ -11,8 +11,6 @@ public class PhoneController: Controller
         _repository = repository;
     }
 
-
-
     [HttpGet("mainpage")]
     public IActionResult HomePage()
     {
